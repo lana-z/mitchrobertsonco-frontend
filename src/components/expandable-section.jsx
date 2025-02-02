@@ -1,12 +1,19 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Plus, Minus } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 export function ExpandableSection({ title, image, content, children }) {
   const [isExpanded, setIsExpanded] = useState(false)
+
+  useEffect(() => {
+    if (isExpanded) {
+      const element = document.getElementById(`content-${title}`)
+      element?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }, [isExpanded, title])
 
   return (
     <div>

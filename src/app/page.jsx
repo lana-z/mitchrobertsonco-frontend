@@ -81,7 +81,6 @@ export default function Home() {
         <ExpandableSection title="Follow Me">
           <div className="mx-10 lg:mx-20">
             <div className="flex flex-col items-center space-y-8">
-              <p className="text-center max-w-2xl">Connect with me on social media to stay updated on my latest ventures, speaking engagements, and insights on entrepreneurship, leadership, and innovation.</p>
               <SocialLinks />
             </div>
           </div>
