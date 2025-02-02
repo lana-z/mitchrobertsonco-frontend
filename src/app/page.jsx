@@ -45,7 +45,7 @@ export default function Home() {
           title="Speaking"
           image="/mitch-robertson-podcast.jpg"
         >
-          <div className="grid mx-10 lg:mx-20 md:grid-cols-2 gap-8 md:gap-16">
+          <div className="grid mx-10 lg:mx-32 xl:mx-40 max-w-7xl md:grid-cols-2 gap-8 md:gap-16 mx-auto">
             <div className="space-y-6">
               <h3 className="font-heading text-3xl text-white">SPEAKING</h3>
               <ul className="space-y-1">
