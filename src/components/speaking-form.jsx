@@ -11,7 +11,7 @@ export function SpeakingForm() {
         href="https://www.linkedin.com/in/mitchellrobertson/"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 border border-white/20 px-6 py-3 text-sm hover:bg-white/5 transition-colors"
+        className="inline-flex items-center gap-2 border border-white/80 px-6 py-3 text-sm hover:bg-white/5 transition-colors"
       >
         <Linkedin className="w-5 h-5" />
         Connect on LinkedIn

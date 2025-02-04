@@ -1,6 +1,7 @@
 "use client"
 import { Header } from "@/components/header"
 import { ExpandableSection } from "@/components/expandable-section"
+import { NewsletterButton } from "@/components/newsletter-button"
 import { SocialLinks } from "@/components/social-links"
 import { SpeakingForm } from "@/components/speaking-form"
 import { Footer } from "@/components/footer"
@@ -19,10 +20,10 @@ export default function Home() {
               <div className="space-y-6">
                 <h3 className="font-heading text-3xl text-white">ABOUT</h3>
                 <div className="space-y-4">
-                  <p>Throughout my entrepreneurial journey, I've faced challenges that tested my resilience and fueled my passion for growth, shaping the leader and speaker I am today. With over 25 years of experience across industries, entrepreneurship is more than my profession—it's a way of life rooted in innovation, impact, and authentic connection.</p>
-                  <p>Raised in the South, I carry with me the rich tradition of storytelling and the power of community, values that infuse every venture I've led. My work has taken me across continents, immersing me in cultures that inspire my approach to leadership, creativity, and problem-solving. Music, food, culture, and meaningful conversation are my constant sources of inspiration—pillars that drive my passion for fostering human connection and sparking transformative ideas.</p>
+                  <p>Throughout my entrepreneurial journey, I&apos;ve faced challenges that tested my resilience and fueled my passion for growth, shaping the leader and speaker I am today. With over 25 years of experience across industries, entrepreneurship is more than my profession—it&apos;s a way of life rooted in innovation, impact, and authentic connection.</p>
+                  <p>Raised in the South, I carry with me the rich tradition of storytelling and the power of community, values that infuse every venture I&apos;ve led. My work has taken me across continents, immersing me in cultures that inspire my approach to leadership, creativity, and problem-solving. Music, food, culture, and meaningful conversation are my constant sources of inspiration—pillars that drive my passion for fostering human connection and sparking transformative ideas.</p>
                   <p>When I speak, I aim to do more than inspire—I aim to challenge perspectives and deliver actionable strategies that empower audiences to think boldly and act decisively. Whether discussing leadership, scaling businesses, or building trust-driven cultures, my talks are rooted in real-world experience and a steadfast commitment to creating positive change.</p>
-                  <p>If you're looking for a speaker who brings authenticity, depth, and a global perspective to the stage, I'd love to connect. Let's create an experience that resonates, inspires, and drives impact.</p>
+                  <p>If you&apos;re looking for a speaker who brings authenticity, depth, and a global perspective to the stage, I&apos;d love to connect. Let&apos;s create an experience that resonates, inspires, and drives impact.</p>
                 </div>
               </div>
               <div className="space-y-6">
@@ -81,7 +82,10 @@ export default function Home() {
         <ExpandableSection title="Follow Me">
           <div className="mx-10 lg:mx-20">
             <div className="flex flex-col items-center space-y-8">
-              <SocialLinks />
+              <NewsletterButton />
+              <SocialLinks 
+              className="text-white/70 hover:text-white transition-colors"
+              />
             </div>
           </div>
         </ExpandableSection>
