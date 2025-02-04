@@ -16,6 +16,9 @@ const oswald = Oswald({
 export const metadata = {
   title: "Mitch Robertson",
   description: "Entrepreneur, Writer, Speaker",
+  icons: {
+    icon: '/mitch-robertson-co-favicon.png',
+  },
 }
 
 export default function RootLayout({ children }) {
