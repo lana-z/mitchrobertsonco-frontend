@@ -17,7 +17,24 @@ export const metadata = {
   title: "Mitch Robertson",
   description: "Entrepreneur, Writer, Speaker",
   icons: {
-    icon: '/mitch-robertson-co-favicon.png',
+    icon: [
+      {
+        url: '/mitch-robertson-co-favicon-1.png',
+        sizes: '32x32',
+      },
+      {
+        url: '/mitch-robertson-co-favicon.png',
+        sizes: '192x192',
+      },
+      {
+        url: '/mitch-robertson-co-favicon.png',
+        sizes: '512x512',
+      }
+    ],
+    apple: {
+      url: '/mitch-robertson-co-favicon.png',
+      sizes: '180x180',
+    },
   },
 }
 
