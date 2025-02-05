@@ -19,7 +19,7 @@ export const metadata = {
   icons: {
     icon: [
       {
-        url: '/mitch-robertson-co-favicon-1.png',
+        url: '/mitch-robertson-co-favicon.png',
         sizes: '32x32',
       },
       {
